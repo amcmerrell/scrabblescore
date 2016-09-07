@@ -22,7 +22,7 @@ public class ScrabbleTest {
     assertEquals(expected, testScrabble.runScrabble("aa"));
   }
   @Test
-  public void calculateScore_returnsScoreForTwoDifferentLetter_2() {
+  public void calculateScore_returnsScoreForTwoDifferentLetter_3() {
     Scrabble testScrabble = new Scrabble();
     Integer expected = 3;
     assertEquals(expected, testScrabble.runScrabble("ad"));
@@ -40,13 +40,13 @@ public class ScrabbleTest {
     assertEquals(expected, testScrabble.runScrabble("L"));
   }
   @Test
-  public void calculateScore_returnsScoreForOneOfEachScore_7() {
+  public void calculateScore_returnsScoreForOneOfEachScore_33() {
     Scrabble testScrabble = new Scrabble();
     Integer expected = 33;
     assertEquals(expected, testScrabble.runScrabble("adbfkjq"));
   }
   @Test
-  public void calculateScore_returnsScoreForNumberAndLetter_2() {
+  public void calculateScore_returnsScoreForNumberAndLetter_1() {
     Scrabble testScrabble = new Scrabble();
     Integer expected = 1;
     assertEquals(expected, testScrabble.runScrabble("a0"));
